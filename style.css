@@ -2,7 +2,7 @@ body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
-    background-image: url(./云墨丹心.JPG);
+    background-image: url(./海灯节背景.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,11 +110,12 @@ strike {
     box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
 }
 
-.btn-success {
-    /* box-shadow: 0px 5px 15px 5px rgb(203, 221, 232); */
+/* .btn-success {
+
     padding: 12px 40px;
     transition: ease;
-}
+}  */
+
 
 .btn-success:hover {
     box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
@@ -231,3 +232,9 @@ footer p {
 #aplayer {
     z-index: 20000000;
 }
+
+/* 评分 */
+.cleanfloat::after{display: block; clear: both; content:""; visibility: hidden; height: 0;}
+
+ul li{list-style:none; float:left; font-size:30px; margin:5px; color:#ccc; cursor:pointer;}
+.hs,.cs{color:#f00;}
