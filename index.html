@@ -36,6 +36,24 @@
                     <button id="kaygb-mail" class="btn btn-success col-lg-4">千咲大佬</button>
                 </div>
 
+                <div class="row">
+                    <a href="https://github.com/Nightglow8088/Nightglow8088.github.io" target="_blank" class="btn btn-primary col-lg-4">网站的github地址</a>
+                    <a href="https://docs.unrealengine.com/4.27/zh-CN/ProgrammingAndScripting/Blueprints/" target="_blank" class="btn btn-secondary col-lg-4">虚幻蓝图</a>
+                    <a href="https://space.bilibili.com/13888325/favlist?fid=1187648625&ftype=create" target="_blank" class="btn btn-success col-lg-4">b站虚幻4收藏夹</a>
+                </div>
+                
+
+                兄弟们 评个分吧
+                <ul class="cleanfloat">
+                    <li>&#9733;</li>
+                     <li>&#9733;</li>
+                     <li>&#9733;</li>
+                     <li>&#9733;</li>
+                     <li>&#9733;</li>
+                 </ul>
+
+
+
                 <footer>
                     <p>Copyright 2018 - Now <a href="https://starxn.com" target="_blank">星辰云</a>
                         <br>Mod by
@@ -85,5 +103,26 @@
             });
         });
     </script>
+
+    <!-- 评分 -->
+    <script>
+        $(function () {
+            $("ul li").hover(function(){
+                $(this).addClass('hs');
+                $(this).prevAll().addClass('hs');
+            },function(){
+                $(this).removeClass('hs');
+                $(this).prevAll().removeClass('hs');
+            })
+    
+            $("ul li").click(function () {
+                $(this).addClass('cs');
+                $(this).prevAll().addClass('cs');
+                $(this).nextAll().removeClass('cs');
+            })
+        })
+    </script>
+    
+
 
 </html>
